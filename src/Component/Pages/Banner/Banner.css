@@ -1,0 +1,109 @@
+.banner-main{
+    background-image: linear-gradient(to right, rgb(51, 86, 99) , rgb(18, 102, 118));
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.banner-icon{
+    display: flex;
+    justify-content: center;
+    color: rgb(251, 251, 251);
+}
+
+
+.banner-body{
+ width: 450px;
+position: relative;
+    
+}
+
+#search-submit{
+    
+    background-color: rgb(6, 177, 215);
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+   border: none;
+    color: aliceblue;
+    height: 52px;
+    padding: 10px 25px;
+}
+
+.banner-icbtn button{
+   margin-left: 10px;
+   background-color:green;
+   color:white;
+   border:none;
+}
+.banner-icbtn {
+   margin-top: 10px;
+}
+
+@media screen and (max-width: 570px) {
+.search-field{
+  max-width: 250px;
+  margin-left: 30px;
+   
+}
+
+
+.banner-heading{
+    display: none;
+}
+.banner-icon{
+    display: none;
+}
+.search-text{
+    padding: 20px;
+}
+.banner-heading2{
+    padding: 20px;
+}
+
+
+.banner-main button{
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+
+ .banner-body{
+ display: none;
+   
+       
+   }
+}
+
+
+@media screen and (max-width: 1070px) {
+    .search-field{
+      max-width: 250px;
+      margin-left: 30px;
+       
+    }
+    .banner-heading{
+        display: none;
+    }
+    .banner-icon{
+        display: none;
+    }
+    .search-text{
+        padding: 20px;
+    }
+    .banner-heading2{
+        padding: 20px;
+    }
+    
+    
+    .banner-main button{
+        margin-top: 10px;
+        margin-left: 30px;
+     }
+    
+     .banner-body{
+     display: none;
+       
+           
+       }
+    }
